@@ -1,0 +1,151 @@
+<!-- 
+DUNGO, Marc Audryn A.
+232324 2BS MIS
+ITMGT45 Intro to HTML Lab 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products</title>
+  <style>
+    body {
+      background-color: #b67649;
+      font-family: 'Open Sans', sans-serif;
+      margin: 0;
+      padding: 0;
+      color: white;
+    }
+
+    header {
+      background-color: #9c5113;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    nav {
+      background-color: #3b2f23;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      text-align: center;
+      padding: 40px;
+    }
+
+    table {
+      width: 80%;
+      margin: 0 auto;
+      text-align: center;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      padding: 12px;
+      border: 1px solid white;
+    }
+
+    footer {
+      background-color: #3b2f23;
+      padding: 15px;
+      text-align: center;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+
+    .product-image {
+      width: 100px;
+      height: 100px;
+      background-color: #ddd;
+      margin: 0 auto;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo.jpg" style="height: 60px; width: auto;">
+    <h1>M.Digital Espresso</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="branches.html">Branches</a>
+    <a href="aboutus.html">About</a>
+  </nav>
+
+  <main>
+    <h2>Product Line</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Product</th>
+          <th>Price</th>
+          <th>Image</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a href="americano.html" style="color: white;">Americano</a></td>
+          <td>P125</td>
+          <td><img src="americano.jpg" class="product-image"></td>
+        </tr>
+        <tr>
+          <td><a href="brewedcoffee.html" style="color: white;">Brewed Coffee</a></td>
+          <td>P100</td>
+          <td><img src="brewedcoffee.jpg" class="product-image"></td>
+        </tr>
+        <tr>
+          <td><a href="cappuccino.html" style="color: white;">Cappuccino</a></td>
+          <td>P140</td>
+          <td><img src="cappuccino.jpg" class="product-image"></td>
+        </tr>
+        <tr>
+          <td><a href="dalgona.html" style="color: white;">Dalgona</a></td>
+          <td>P120</td>
+          <td><img src="dalgona.jpg" class="product-image"></td>
+        </tr>
+        <tr>
+          <td><a href="espresso.html" style="color: white;">Espresso</a></td>
+          <td>P120</td>
+          <td><img src="espresso.jpg" class="product-image"></td>
+        </tr>
+        <tr>
+          <td><a href="frappuccino.html" style="color: white;">Frappuccino</a></td>
+          <td>P200</td>
+          <td><img src="frappuccino.jpg" class="product-image"></td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 M.Digital Espresso</p>
+  </footer>
+
+</body>
+</html>
